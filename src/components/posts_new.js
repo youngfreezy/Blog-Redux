@@ -40,6 +40,7 @@ class PostsNew extends Component {
         </div>
         
         <button type="submit" className="btn btn-primary">Submit</button>
+        <Link to="/" className="btn btn-danger">Cancel</Link>
       </form>
     );
   }
